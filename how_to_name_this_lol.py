@@ -10,4 +10,4 @@ async def bordel(ctx):
     for user in users:
         await ctx.send(user.avatar_url)
         
-bot.run("Njk2NzQyMzcyOTM5MTM3MTM2.YCP8Vg.eobINeleRc5VjjHAeHvNJYzJSME", bot=False)
+bot.run("token", bot=False)
